@@ -1,0 +1,9 @@
+<launch>
+    <arg name="node_start_delay" default="10.0" />  
+
+    <arg name="scene" default="$(find p3dx_coppeliasim)/scene/lab.ttt"/>
+    <arg name="COPPELIA_PATH" default="$HOME/CoppeliaSim_Edu_V4_3_0_Ubuntu20_04"/>
+    <node name="sim_node" pkg="p3dx_coppeliasim" type="sim_node.py" args="$(arg scene) $(arg COPPELIA_PATH)" />
+    <node name="launch_robot" pkg="p3dx_coppeliasim" type="launch_robot.py" output="screen" />
+
+</launch>
