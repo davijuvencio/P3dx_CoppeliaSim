@@ -1,13 +1,13 @@
 # Pioneer P3dx Model
 
-Um modelo ROS/CoppeliaSim do Pioneer 3DX adaptado por Davi Juvêncio (davi.j.g.sousa@ee.ufcg.edu.br).
+Um modelo ROS/CoppeliaSim do Pioneer 3DX adaptado por Davi Juvêncio (davijuvencio@gmail.com).
 
 # Para instalar:
 
 ```
 $ mkdir -p <catkin_ws>/src
 $ cd <catkin_ws>/src
-$ git clone https://github.com/davijuvencio/eRobotica_P3dx_CoppeliaSim.git
+$ git clone https://github.com/davijuvencio/P3dx_CoppeliaSim.git
 $ cd ..
 $ catkin_make
 ```
